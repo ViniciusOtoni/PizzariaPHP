@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    font-family: Alatsi;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0px;
+    height: 100vh;
+}
+
+.img {
+    max-height: 100vh;
+    min-width: 100%;
+}
+
+.img img  {
+    height: 100vh;
+    position: absolute;    
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column; 
+    width: 30%;   
+}
+
+.agrupamento {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.input {
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.titulo-agp {
+    padding: 10px;
+    color: #000000;
+    font-size: 18px;
+   
+}
+
+.senha {
+    color: red;
+    padding-left: 200px;
+    padding-top: 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.entrar{
+    width: 300px;
+    height: 56px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+    background-color: #A82C2C;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.entrar:hover{
+    background-color: #A80C0C;
+}
+
+
+
+.conta{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    
+}
+
+a {
+    color: red;
+    margin: 0px;
+    padding-left: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nome{
+    color: #78290F;
+    font-size: 50px;
+    margin-top: 30px;
+
+    
+}
+.comida{
+    color: #78290F;
+    font-size: 50px;
+    margin-right: -40px;
+}
+
+.agp-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

@@ -1,0 +1,137 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Alatsi; 
+    margin-top: 2em;
+}
+
+.header {
+    background-color: #a52a2a;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+
+
+
+
+.navigation .brand {
+    color: white;
+    text-decoration: none;
+    padding-right: 2em;
+}
+
+.navigation-item {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #78290F;
+    margin-right: 1em;
+}
+
+.main-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100vh;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding: 2em;
+}
+
+
+.item-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.item-details {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item-details span {
+    margin-right: 10px;
+}
+
+.remove-item {
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    font-size: .9em;
+    border-radius: 4px;
+}
+
+.total  {
+    padding-top: 2em;
+}
+
+.total span  {
+    font-size: 2em;
+}
+
+.actions button  {
+    background-color: #78290F;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.actions input  {
+    background-color: #78290F;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 40px;
+}
+
+
+.actions a  {
+    padding: 0px;
+    background-color: #78290F;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}

@@ -1,0 +1,107 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    font-family: Alatsi;
+}
+
+
+.main-content {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2em 0em 1em 0em;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.voltar-btn {
+    background-color: #78290F;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 2em;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+.pedidos h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    padding-left: 2em;
+}
+
+.pedido {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin: 2em;
+}
+
+.pedido-info p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.pedido-actions input {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2em;
+    width: 20em;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 1em;
+}
+
+.pedido-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #78290F;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.footer-content h3 {
+    margin-top: 0;
+}
+
+.social-media-icons a {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.map img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.numero-pedido {
+    padding-bottom: 1em;
+}

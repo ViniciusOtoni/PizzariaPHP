@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('/projeto/pizza/public/images/pizza2.png');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Alatsi;
+}
+
+.registro-container {
+    background-color: #F3EAD7;
+    width: 80%;
+    max-width: 400px;
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+}
+
+.voltar-btn {
+    background-color: #78290F;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.criar-btn {
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px; 
+}
+
+
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: calc(50% - 10px); 
+    padding: 15px;
+    margin-bottom: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+::placeholder {
+    color: #888;
+}
+
+.form-group:after {
+    content: "";
+    display: table;
+    clear: both;
+}

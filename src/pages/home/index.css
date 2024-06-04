@@ -1,0 +1,146 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    font-family: Alatsi;
+}
+
+.header-main {
+    background-color: #a52a2a;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+
+
+.navigation .brand {
+    color: white;
+    text-decoration: none;
+    padding-right: 2em;
+}
+
+.navigation-item {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #78290F;
+    margin-right: 1em;
+}
+
+.header {
+    background-image: url('/projeto/pizza/public/images/Rectangle 274.png'); 
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.navbar {   
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-button {
+    background-color: #45332D;
+    border: none;
+    border-radius: .7em;
+    width: 10em;
+    color: white;
+    padding: 10px 20px;
+    margin: 0em .6em;
+    margin-top: 2em;    
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0em;
+    justify-content: center;
+    text-align: center;
+    margin-left: 2em;
+    
+}
+
+.nav-button.active {
+    background-color: #a52a2a;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color: #78290F;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.menu-item p {
+    font-size: 1.8em;
+}
+
+.menu-item img {
+    width: 18em;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+
+
+.main-footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #78290F;
+    padding: 40px;
+    margin-top: 20px;
+    color: white;
+}
+
+.footer-content h3 {
+    margin-top: 0;
+}
+
+.social-media-icons a {
+    display: inline-block;
+    margin-right: 5px;
+}   
+
+.map img {
+    width: 70vh; 
+    height: 20vh;
+    border-radius: 10px;
+}
+
+.numero-pedido {
+    padding-bottom: 1em;
+}
+
+.verificar {
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    font-size: .9em;
+    border-radius: 4px;
+}

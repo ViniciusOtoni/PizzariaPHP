@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Alatsi;
+}
+
+.content {
+    text-align: center;
+}
+
+.card {
+    width: 80vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    display: inline-block;
+}
+
+.icon-truck {
+    font-size: 48px;
+    color: #a52a2a; 
+}
+
+.card p {
+    color: #a52a2a;
+    font-size: 24px; 
+    margin-top: 20px;
+}
+
+.voltar-btn {
+    width: 80%;
+    background-color: #78290F;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 2em;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
